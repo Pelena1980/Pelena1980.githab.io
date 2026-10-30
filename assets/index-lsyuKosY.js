@@ -20955,7 +20955,7 @@ function bu() {
       (r(!0), a(``));
       async function n() {
         try {
-          let n = await fetch(`/movies.json`, { signal: e.signal });
+          let n = await fetch(`movies.json`, { signal: e.signal });
           if (!n.ok) throw Error(`Не удалось загрузить фильмы`);
           let r = await n.json();
           if (
